@@ -1,6 +1,6 @@
 # test-tasks
 
-## task 1 Calculate Sum of elements from the matrix main diagonal
+## Task 1 Calculate Sum of elements from the matrix main diagonal
 
 ### Input Format
 
