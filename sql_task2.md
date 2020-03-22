@@ -11,6 +11,8 @@ Explain your answer.
 
 As result we recieve table with 50 rows and 5 columns:
 
+```text
 +----+----------------+-----------+----+-------------+
 | Id | Name           | DeptId    | Id | Name        |
 +----+----------------+-----------+----+-------------+
+```
