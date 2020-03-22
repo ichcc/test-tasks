@@ -113,3 +113,14 @@ SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races)
 ```
 
 Explain your answer and also provide an alternative version of this query that will avoid the issue that it exposes.
+
+### Task 4 SQL Task 2.
+
+Assume a schema of Emp ( Id, Name, DeptId ) , Dept ( Id, Name).
+If there are 10 records in the Emp table and 5 records in the Dept table, how many rows will be displayed in the result of the following SQL query:
+
+```sql
+Select * From Emp, Dept
+```
+
+Explain your answer.
