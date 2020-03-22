@@ -27,7 +27,6 @@ Print one line: Sum of elements from the matrix main diagonal.
 
 15
 
-
 ## Task 2. Find the average of the marks obtained by the particular student
 
 ### Input Format
@@ -36,7 +35,7 @@ The first line contains the integer, the number of students (N). The next lines 
 
 ### Constraints
 
-```
+```text
 2 < N < 100
 0 < Marks < 100
 ```
@@ -47,7 +46,7 @@ Print one line: The average of the marks obtained by the particular student corr
 
 ### Sample Input 0
 
-```
+```text
 3
 Krishna 67 68 69
 Arjun 70 98 63
@@ -65,7 +64,7 @@ Marks for Malika are {52 56 60} whose average is (52+56+60)/3 is 56.
 
 ### Sample Input 1
 
-```
+```text
 
 2
 Harsh 25 26.5 28
@@ -77,12 +76,11 @@ Harsh
 
 `26.50`
 
-
 ### Task 3. SQL Task 1
 
 Given the following tables:
 
-```
+```text
 sql> SELECT * FROM runners;
 +----+--------------+
 | id | name         |
@@ -125,3 +123,17 @@ Select * From Emp, Dept
 ```
 
 Explain your answer.
+
+### Task 5. SQL Task 3
+
+Write a query how do you copy data from one table to another table?
+
+### Task 6. SQL Task 4
+
+You have a table:
+ `create table test (name VARCHAR(20), email VARCHAR(20));`
+
+How to find a duplicate record?
+
+1. Duplicate records with one field
+2. Duplicate records with more than one field (both name and email).
