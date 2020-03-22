@@ -16,7 +16,7 @@ Print one line: Sum of elements from the matrix main diagonal.
 
 ### Sample Input 0
 
-``` 
+```text
 3
 1 2 3
 4 5 6
@@ -66,6 +66,7 @@ Marks for Malika are {52 56 60} whose average is (52+56+60)/3 is 56.
 ### Sample Input 1
 
 ```
+
 2
 Harsh 25 26.5 28
 Anurag 26 28 30
@@ -77,7 +78,7 @@ Harsh
 `26.50`
 
 
-### Task 3.	SQL Task 1.
+### Task 3. SQL Task 1
 
 Given the following tables:
 
@@ -114,7 +115,7 @@ SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races)
 
 Explain your answer and also provide an alternative version of this query that will avoid the issue that it exposes.
 
-### Task 4 SQL Task 2.
+### Task 4 SQL Task 2
 
 Assume a schema of Emp ( Id, Name, DeptId ) , Dept ( Id, Name).
 If there are 10 records in the Emp table and 5 records in the Dept table, how many rows will be displayed in the result of the following SQL query:
